@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #f0f2f5; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+}
+
+.center {
+    background: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaçamento interno */
+    width: 600px; /* Largura fixa */
+    text-align: center; /* Centraliza texto */
+}
+
+h1 {
+    font-size: 24px; /* Tamanho do título */
+    color: #333; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+input {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 4px; /* Cantos arredondados */
+    margin-bottom: 10px; /* Espaçamento abaixo do input */
+    transition: border-color 0.3s; /* Transição suave na cor da borda */
+}
+
+input:focus {
+    border-color: #007BFF; /* Borda azul ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+button {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin-top: 20px; /* Espaçamento acima da lista */
+}
+
+li {
+    background-color: #f8f9fa; /* Fundo suave para os itens */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento abaixo dos itens */
+    border-radius: 4px; /* Cantos arredondados */
+    display: flex; /* Usando flex para alinhar o botão */
+    justify-content: space-between; /* Espaçamento entre o texto e o botão */
+    align-items: center; /* Centraliza verticalmente */
+    overflow: hidden;
+}
+
+li button {
+    background-color: #dc3545; /* Cor de fundo do botão de excluir */
+    padding: 5px 10px; /* Espaçamento interno */
+    border: none; /* Remove borda padrão */
+    color: white; /* Cor do texto */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+li button:hover {
+    background-color: #c82333; /* Cor ao passar o mouse no botão de excluir */
+}
+
+.botaoFeito {
+    background-color: rgb(13, 245, 13);
+}
+
+.botaoFeito:hover {
+    background-color: green;
+}
+
+#listaFeitos {
+    
+}
